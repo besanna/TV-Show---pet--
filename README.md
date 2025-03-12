@@ -551,251 +551,46 @@
 
 ## Use Case диаграмма
 
-[Uplo<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.16 Chrome/132.0.6834.196 Electron/34.2.0 Safari/537.36" version="26.0.16">
-  <diagram name="Страница — 1" id="_FP-sFblOhsTCUfbjet6">
-    <mxGraphModel dx="1590" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="220" y="10" width="700" height="690" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-2" value="Телезритель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="140" y="235" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-3" value="Оператор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="980" y="100" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-4" value="Специалист по загадкам" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="315" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-12" value="Направить заявку на рассмотрение" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="215" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-14" value="Дать согласие на обработку персональных данных" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="315" width="150" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-2" target="esnk4hvnUJk4FXBi5v9I-12" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="605" as="sourcePoint" />
-            <mxPoint x="490" y="555" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-18" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-12" target="esnk4hvnUJk4FXBi5v9I-14" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="390" y="575" as="sourcePoint" />
-            <mxPoint x="550" y="575" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-19" value="Ознакомиться с&lt;div&gt;результатом&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="245" y="348" width="135" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-20" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-12" target="esnk4hvnUJk4FXBi5v9I-19" edge="1">
-          <mxGeometry x="0.0107" width="160" relative="1" as="geometry">
-            <mxPoint x="320" y="405" as="sourcePoint" />
-            <mxPoint x="320" y="365" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-21" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="540" y="720" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-24" value="Заполнить личную информацию" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="420" y="150" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-25" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-12" target="esnk4hvnUJk4FXBi5v9I-24" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="555" as="sourcePoint" />
-            <mxPoint x="363" y="68" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-26" value="Сообщить об ошибке в работы системы" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="580" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-27" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-21" target="esnk4hvnUJk4FXBi5v9I-26" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="290" as="sourcePoint" />
-            <mxPoint x="290" y="355" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-29" value="Ведущий" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="520" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-33" value="Проверить&lt;div&gt;заявку&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="750" y="30" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-34" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-33" target="esnk4hvnUJk4FXBi5v9I-3" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="170" y="305" as="sourcePoint" />
-            <mxPoint x="288" y="238" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-35" value="Изменить&amp;nbsp;&lt;div&gt;статус заявки&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="20" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-36" value="Направить заявку специалисту по загадкам" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="100" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-37" value="Проверить загадку&amp;nbsp;&lt;div&gt;и ответ&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="765" y="273" width="140" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-38" value="Сменить статус&amp;nbsp;&lt;div&gt;загадки&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="215" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-39" value="Внести загадку в&amp;nbsp;&lt;div&gt;Базу загадок&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="310" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-37" target="esnk4hvnUJk4FXBi5v9I-4" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="900" y="125" as="sourcePoint" />
-            <mxPoint x="990" y="130" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-41" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-33" target="esnk4hvnUJk4FXBi5v9I-35" edge="1">
-          <mxGeometry x="-0.0077" width="160" relative="1" as="geometry">
-            <mxPoint x="372" y="487" as="sourcePoint" />
-            <mxPoint x="473" y="453" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-42" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-36" target="esnk4hvnUJk4FXBi5v9I-33" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="510" y="400" as="sourcePoint" />
-            <mxPoint x="670" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-44" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-37" target="esnk4hvnUJk4FXBi5v9I-38" edge="1">
-          <mxGeometry x="-0.0077" width="160" relative="1" as="geometry">
-            <mxPoint x="760" y="125" as="sourcePoint" />
-            <mxPoint x="680" y="115" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-45" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-39" target="esnk4hvnUJk4FXBi5v9I-37" edge="1">
-          <mxGeometry x="0.0091" width="160" relative="1" as="geometry">
-            <mxPoint x="690" y="170" as="sourcePoint" />
-            <mxPoint x="780" y="150" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-51" value="Провести&lt;div&gt;игру&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="765" y="485" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-52" value="Запустить процесс отбора загадок" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="625" y="385" width="140" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-54" value="Зафиксировать результат" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="555" y="470" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-55" value="Объявить&amp;nbsp;&lt;div&gt;победителя&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="595" y="580" width="140" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-56" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-51" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="510" y="300" as="sourcePoint" />
-            <mxPoint x="1000" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-57" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-51" target="esnk4hvnUJk4FXBi5v9I-52" edge="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="372" y="487" as="sourcePoint" />
-            <mxPoint x="438" y="463" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-58" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-51" target="esnk4hvnUJk4FXBi5v9I-54" edge="1">
-          <mxGeometry x="-0.0085" width="160" relative="1" as="geometry">
-            <mxPoint x="790" y="540" as="sourcePoint" />
-            <mxPoint x="740" y="515" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-59" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-51" target="esnk4hvnUJk4FXBi5v9I-55" edge="1">
-          <mxGeometry x="-0.0085" width="160" relative="1" as="geometry">
-            <mxPoint x="770" y="565" as="sourcePoint" />
-            <mxPoint x="710" y="590" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-60" value="Установить уровень сложности загадки" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="150" width="130" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-61" value="&quot;include&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="esnk4hvnUJk4FXBi5v9I-37" target="esnk4hvnUJk4FXBi5v9I-60" edge="1">
-          <mxGeometry x="-0.0077" width="160" relative="1" as="geometry">
-            <mxPoint x="800" y="274" as="sourcePoint" />
-            <mxPoint x="740" y="250" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-62" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="-0.0649" width="160" relative="1" as="geometry">
-            <mxPoint x="160" y="330" as="sourcePoint" />
-            <mxPoint x="520" y="740" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="740" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-63" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry x="0.0002" width="160" relative="1" as="geometry">
-            <mxPoint x="1040" y="120" as="sourcePoint" />
-            <mxPoint x="590" y="740" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="1120" y="120" />
-              <mxPoint x="1120" y="740" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-64" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="334.8" as="sourcePoint" />
-            <mxPoint x="1120" y="334.8" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-65" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1040" y="540" as="sourcePoint" />
-            <mxPoint x="1120" y="540" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="esnk4hvnUJk4FXBi5v9I-66" value="Система &quot;Мир загадок&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="220" y="10" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="LER5u1p7EibxETTZ2ts3-1" value="Отклонить&amp;nbsp;&lt;div&gt;загадку&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="414" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="LER5u1p7EibxETTZ2ts3-2" value="&quot;extend&quot;" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LER5u1p7EibxETTZ2ts3-1" target="esnk4hvnUJk4FXBi5v9I-52">
-          <mxGeometry x="0.0091" width="160" relative="1" as="geometry">
-            <mxPoint x="685" y="330" as="sourcePoint" />
-            <mxPoint x="775" y="321" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
-ading use case.drawio…]()
-
+![use case drawio](https://github.com/user-attachments/assets/41bfed19-eb54-4b50-88f7-64d3ea9ffb15)
 
 # 5. Бизнес-процессы
 
 ## 5.1. Бизнес-процесс процесса приема и обработки заявки от телезрителя
 
+![Прием и обработка заявок с загадкой, классификация загадки по уровню сложности (1)](https://github.com/user-attachments/assets/a51f2f49-6d15-4fe0-9d05-82c4484f94d0)
+
+
 ## 5.2. Бизнес-процесс классификации загадок по уровням сложности
+
+![Классификация загадки по уровню сложности](https://github.com/user-attachments/assets/9deec037-1b73-44f2-b94f-60a4307bdc07)
+
 
 ## 5.3. Бизнес-процесс отбора загадок на игру в прямом эфире
 
+![Процесс отбора загадок на игру в прямом эфире](https://github.com/user-attachments/assets/b85fd96d-40e7-4432-9964-045e890fe029)
+
+
 ## 5.4. Бизнес-процесс оповещения телезрителей, чьи загадки были разыграны
+
+![Оповещение телезрителя](https://github.com/user-attachments/assets/99e19b33-7132-468d-98e8-b1b295ee0cf7)
+
 
 # 6. UML-диаграммы
 
 ## 6.1. Диаграмма состояний заявки
 
+![заявка drawio](https://github.com/user-attachments/assets/f19f7d4a-3a22-4bbc-8b8f-4e931b707af3)
+
+
 ## 6.2. Диаграмма состояний загадки
 
+![загадка drawio](https://github.com/user-attachments/assets/02b1215e-7904-43f9-be2b-a41ef4a45eb4)
+
+
 ## 6.3. Диаграмма активности для алгоритма выбора загадок для игры
+
+![Диаграмма активности](https://github.com/user-attachments/assets/d12885b7-6da4-4d4b-821f-7dd48a97668a)
+
 
 # 7. Постановка для фронтенда
 
@@ -804,6 +599,8 @@ ading use case.drawio…]()
 Под выбранные группы были спроектированы низкодетализированные макеты экранов.
 
 ## 7.1 Макеты интерфейсов телезрителей
+
+
 
 При нажатии на кнопку “Зарегистрироваться” появляется форма для регистрации (Рисунок 7.2).
 
