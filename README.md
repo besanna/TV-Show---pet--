@@ -49,4 +49,5 @@
 - **GitHub**: https://github.com/besanna
 - **Telegram**: https://t.me/bespasus
 - **Email**: besanna114@gmail.com
+
 Готова к сотрудничеству и стажировке!
