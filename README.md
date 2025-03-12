@@ -44,8 +44,8 @@
 
 ---
 
-Контакты
-Автор: Беспалова Анна
-GitHub: https://github.com/besanna
-Email: besanna114@gmail.com
+## Контакты
+- **Автор**: Беспалова Анна
+- **GitHub**: https://github.com/besanna
+- **Email**: besanna114@gmail.com
 Готова к сотрудничеству и стажировке!
