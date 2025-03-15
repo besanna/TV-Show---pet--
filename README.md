@@ -47,7 +47,7 @@
 
 ## Контакты
 - **Автор**: Беспалова Анна
-- **Telegram**: https://t.me/bespasus
+- **Telegram**: https://t.me/bespalovasa
 - **Email**: besanna114@gmail.com
 
 Готова к сотрудничеству и стажировке!
