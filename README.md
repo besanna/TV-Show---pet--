@@ -50,4 +50,4 @@
 - **Telegram**: https://t.me/bespalovasa
 - **Email**: besanna114@gmail.com
 
-Готова к сотрудничеству и стажировке!
+Готова к сотрудничеству!
